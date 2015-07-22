@@ -1,5 +1,7 @@
 # inface
 inportal office-online project
 
-python库：
-shortuuid,bootstrap3
+python lib：
+shortuuid,
+Django App:
+bootstrap3
