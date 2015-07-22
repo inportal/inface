@@ -1,8 +1,8 @@
 # inface
 inportal office-online project
 
-Python Lib：
+Python Lib:
 shortuuid,
 
 Django App:
-bootstrap3
+bootstrap3,
