@@ -2,7 +2,7 @@ from django.shortcuts import get_object_or_404
 from django.utils.safestring import mark_safe
 from django.forms import ChoiceField, CharField
 from inface.uc.models import *
-from inface.uc.models import SyUser
+from inface.uc.models import MyUser
 
 class DeptChoiceField(ChoiceField):
     def clean(self, value):

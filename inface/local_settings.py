@@ -1,8 +1,14 @@
 # coding: utf-8
+from django.utils.translation import ugettext_lazy as _
+
+
 DEBUG = True
 ALLOWED_HOSTS = ['*',]
 TIME_ZONE = 'Asia/Chongqing'
 LANGUAGE_CODE = 'zh-hans'
+USE_I18N = True
+USE_L10N = True
+USE_THOUSAND_SEPARATOR = True
 
 
 INSTALLED_APPS = (
@@ -12,6 +18,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.postgres',
+    'bootstrap3',
     'inface.uc',
 )
 
@@ -37,6 +44,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.core.context_processors.i18n',
                 ],
             },
         },
@@ -50,8 +58,24 @@ STATICFILES_DIRS = (
 
 # LoginView
 LOGIN_URL = '/login/'
-LOGIN_REDIRECT_URL = '/portal/'
+LOGIN_REDIRECT_URL = '/home/'
 AUTH_USER_MODEL = 'uc.MyUser'
+
+#static url
+STATIC_URL = 'http://inface.inportal.cn/static/'
+
+#media url
+MEDIA_ROOT = 'D:/webprojects/inface/media/'
+MEDIA_URL = 'http://office.scotsuka.com/media/'
+
+LOCALE_PATHS = (
+    'D:/webprojects/inface/locale',
+)
+LANGUAGES = (
+    ('zh-hans', _(u'Chinese')),
+    ('en', _(u'English')),
+)
+
 
 
 

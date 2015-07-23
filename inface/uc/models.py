@@ -120,13 +120,13 @@ class MyUserManager(BaseUserManager):
 
 
 class MyUser(AbstractBaseUser):
+    email = models.EmailField(verbose_name=_(u'email'),max_length=200,unique=True,db_index=True,)
     first_name = models.CharField(verbose_name=_(u'first name'), max_length=50)
     last_name = models.CharField(verbose_name=_(u'last name'), max_length=50)
     alias = models.CharField(verbose_name=_(u'user alias') , unique=True, max_length=50)
     dept = models.ForeignKey(Dept, verbose_name=_(u'department'), null=True)
     position = models.CharField(verbose_name=_(u'position'), max_length=40,blank=True)
     mobile = models.CharField(verbose_name=_(u'mobile'), max_length=12,unique=True,blank=True)
-    email = models.EmailField(verbose_name=_(u'email'),max_length=200,unique=True,db_index=True,)
     attr = HStoreField(verbose_name=_(u'user attributes'),)
     is_active = models.BooleanField(verbose_name=_(u'active'),default=True)
     is_admin = models.BooleanField(verbose_name=_(u'administrator'),default=False)

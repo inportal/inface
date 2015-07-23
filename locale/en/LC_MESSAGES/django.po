@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-23 11:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\inface\local_settings.py:72 
+msgid "Chinese"
+msgstr ""
+
+#: .\inface\local_settings.py:73 
+msgid "English"
+msgstr ""
+
+#: .\inface\uc\forms.py:15 
+msgid "Current password"
+msgstr ""
+
+#: .\inface\uc\forms.py:21 
+msgid "New password"
+msgstr ""
+
+#: .\inface\uc\forms.py:27 
+msgid "Confirmation"
+msgstr ""
+
+#: .\inface\uc\forms.py:37 
+msgid "Current password is error"
+msgstr ""
+
+#: .\inface\uc\forms.py:49 
+msgid "The two passwords you typed do not match."
+msgstr ""
+
+#: .\inface\uc\forms.py:59 
+msgid "Email account is exist"
+msgstr ""
+
+#: .\inface\uc\forms.py:67 
+msgid "Password"
+msgstr ""
+
+#: .\inface\uc\models.py:13 
+msgid "System Config Param"
+msgstr ""
+
+#: .\inface\uc\models.py:15 
+msgid "System Config"
+msgstr ""
+
+#: .\inface\uc\models.py:18 .\inface\uc\models.py:127 
+msgid "department"
+msgstr ""
+
+#: .\inface\uc\models.py:19 
+msgid "parent"
+msgstr ""
+
+#: .\inface\uc\models.py:20 
+msgid "department level"
+msgstr ""
+
+#: .\inface\uc\models.py:21 
+msgid "rank"
+msgstr ""
+
+#: .\inface\uc\models.py:22 
+msgid "root"
+msgstr ""
+
+#: .\inface\uc\models.py:23 
+msgid "delete"
+msgstr ""
+
+#: .\inface\uc\models.py:123 
+msgid "email"
+msgstr ""
+
+#: .\inface\uc\models.py:124 
+msgid "first name"
+msgstr ""
+
+#: .\inface\uc\models.py:125 
+msgid "last name"
+msgstr ""
+
+#: .\inface\uc\models.py:126 
+msgid "user alias"
+msgstr ""
+
+#: .\inface\uc\models.py:128 
+msgid "position"
+msgstr ""
+
+#: .\inface\uc\models.py:129 
+msgid "mobile"
+msgstr ""
+
+#: .\inface\uc\models.py:130 
+msgid "user attributes"
+msgstr ""
+
+#: .\inface\uc\models.py:131 
+msgid "active"
+msgstr ""
+
+#: .\inface\uc\models.py:132 
+msgid "administrator"
+msgstr ""
+
+#: .\inface\uc\models.py:133 
+msgid "leader"
+msgstr ""
+
+#: .\inface\uc\models.py:134 
+msgid "virtual user"
+msgstr ""
+
+#: .\inface\uc\models.py:135 
+msgid "not allowed login"
+msgstr ""
+
+#: .\inface\uc\models.py:136 
+msgid "master user"
+msgstr ""
+
+#: .\inface\uc\models.py:137 
+msgid "order by"
+msgstr ""
+
+#: .\templates\uc\login.html:9 
+msgid "Inface"
+msgstr "Inface Office Online"
+
+#: .\templates\uc\login.html:23 
+msgid "Login Page"
+msgstr "User Login Page"
+
+#: .\templates\uc\login.html:31 
+msgid "signing in..."
+msgstr "Signing in..."
+
+#: .\templates\uc\login.html:32 
+msgid "sign in"
+msgstr "Sign in"
